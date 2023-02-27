@@ -5,6 +5,8 @@ class CreateReview < ActiveRecord::Migration[6.1]
       t.integer :user_id
       t.integer :product_id
       t.integer :comment
+
+      
     end
   end
 end
